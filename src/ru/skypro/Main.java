@@ -3,15 +3,17 @@ package ru.skypro;
 public class Main {
     // задача 1
     public static void main(String[] args) {
-        int a = 10;
-        while (a!= 10); {
-            a+t;
-            System.out.println(a + " ");
+        int order = 0;
+        while (order!=10){
+            order++;
+            System.out.print(order+" ");
         }
+
         System.out.println();
-        for (; a > 0; a--);
-            System.out.println(a + " ");
+        for (;order>0;order--)
+        System.out.print(order + " ");
     }
+}
 
 
 
